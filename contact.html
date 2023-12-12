@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopnTech</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="./images/logo.webp" type="image/x-icon">
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./songs.css">
+</head>
+
+<body>
+    <div class="arrow_up d-flex align-items-center justify-content-center" id="up">
+        <i class="fa-solid fa-angles-up text-white fs-4" onclick="down()"></i>
+    </div>
+
+    <!-- navbar  -->
+
+    <nav id="nav_add" class="navbar navbar-expand-lg py-2 nav_add">
+        <div class="container-fluid px-2 px-lg-5">
+            <a class="navbar-brand text-white"  href="#"><img src="./images/7826946.webp" alt="logo" style="width: 150px;"></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item" data-aos="fade-down" data-aos-duration="1200">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-up" data-aos-duration="1200">
+                        <a class="nav-link" href="./album.html">Albums</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-duration="1200">
+                        <a class="nav-link" href="./gallery.html">Gellary</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-duration="1200">
+                        <a class="nav-link" href="./event.html">Event</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-up" data-aos-duration="1200">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar *************** -->
+
+    <!-- section start  -->
+
+    <section class="album mt-50 p-100 d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h2 class="h-50 fw-bold text-white" data-aos="zoom-in-left" data-aos-duration="3000">Contact Us</h2>
+        </div>
+    </section>
+
+    <!-- section end -->
+
+
+    <!-- sectino start -->
+
+    <section class="contact_us p-100">
+        <div class="container">
+            <div data-aos="fade-down-left" data-aos-duration="3000">
+                <h2 class="h-50 fw-bold text-white">Contatc Us</h2>
+                <p class="pColor">Feel Free to contact us any time. We will get <br> back to you as soon as we can!.</p>
+            </div>
+            <div class="row g-3 justify-content-center">
+                <div class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="3000">
+                    <div>
+                        <input type="text" id="name" placeholder="Name *"
+                            class="w-100 border rounded-4 p-3 my-2 shadow-light bg-transparent text-white" >
+                        <input type="text" id="email" placeholder="Email *"
+                            class="w-100 border rounded-4 p-3 my-2 shadow-light bg-transparent text-white">
+                        <textarea name="" id="message" cols="10" rows="10" placeholder="Message *"
+                            class="w-100 border rounded-4 p-3 my-2 shadow-light bg-transparent text-white"></textarea>
+                        <div class="mt-3">
+                            <button class="butn w-50 ">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 position-relative" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="contact_info rounded-5 shadow-light p-3 p-lg-5">
+                        <h2 class="h-45 fw-bold">Contact Info</h2>
+                        <ul class="list-unstyled text-white">
+                            <li class="py-2">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-phone me-3 fs-3"></i>
+                                    <p class="pColor text-white">+1234567890</p>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-envelope me-3 fs-3"></i>
+                                    <p class="pColor text-white">Test@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="py-2">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-map-location-dot me-3 fs-3"></i>
+                                    <p class="pColor text-white">1000+ Travel partners and 65+ <br>
+                                        Service city across India, <br> USA, Canada & UAE</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <i class="fa-solid fa-share-from-square me-3 fs-3 text-white"></i>
+                            </div>
+                            <div class="social_media">
+                                <a href="https://www.facebook.com" target="_blank" class="text-decoration-none">
+                                    <i class="fa-brands fa-facebook mx-2 fs-2"></i>
+                                </a>
+                                <a href="https://www.instagram.com" target="_blank" class="text-decoration-none">
+                                    <i class="fa-brands fa-instagram mx-2 fs-2"></i>
+                                </a>
+                                <a href="https://www.twitter.com" target="_blank" class="text-decoration-none">
+                                    <i class="fa-brands fa-twitter mx-2 fs-2"></i>
+                                </a>
+                                <a href="https://www.gofore.com" target="_blank" class="text-decoration-none">
+                                    <i class="fa-brands fa-gofore mx-2 fs-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us End -->
+
+    <!-- section start -->
+
+    <section>
+        <div class="container-fluid g-0">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13612.877149723601!2d76.25949765!3d31.463153399999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1700647887217!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- section end  -->
+
+    <!-- section start  -->
+
+    <section class="follwo p-100 position-relative text-center">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="h-50 fw-bold">Follow US</h2>
+                <div class="follwo_img">
+                    <img src="./images/musicwhite.webp" alt="music">
+                </div>
+            </div>
+            <div class="row g-3 pt-100 justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-down" data-aos-duration="3000">
+                    <div class="position-relative facebook_ico_main">
+                        <a href="https://www.facebook.com" class="text-decoration-none" target="_blank">
+                            <h5 class="h-50">Facebook</h5>
+                            <div>
+                                <h4 class="h-150 text-white fw-bold mb-0">FB</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="position-relative facebook_ico_main">
+                        <a href="https://www.Instagram.com" class="text-decoration-none" target="_blank">
+                            <h5 class="h-50">Instagram</h5>
+                            <div>
+                                <h4 class="h-150 text-white fw-bold mb-0">IG</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-down" data-aos-duration="3000">
+                    <div class="position-relative facebook_ico_main">
+                        <a href="https://www.google.com" class="text-decoration-none" target="_blank">
+                            <h5 class="h-50">Google</h5>
+                            <div>
+                                <h4 class="h-150 text-white fw-bold mb-0">GG</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="position-relative facebook_ico_main">
+                        <a href="https://www.twitter.com" class="text-decoration-none" target="_blank">
+                            <h5 class="h-50">Twitter</h5>
+                            <div>
+                                <h4 class="h-150 text-white fw-bold mb-0">TW</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section end -->
+
+    <footer class="text-white">
+        <div class="container">
+            <div class="row g-3 justify-content-center align-items-stretch">
+                <div class="col-lg-6 col-md-6" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="text-center">
+                        <a class="navbar-brand d-flex align-items-center justify-content-center justify-content-lg-start"
+                            data-aos="fade-right" href="#"><img src="./images/7826946.webp" alt="logo" class="pb-3" style="width: 150px;"></a>
+                        <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero,
+                            nulla architecto
+                            quisquam quasi sunt quibusdam ab labore eum ad eius eveniet? Facere iste tenetur fugiat
+                            ratione repudiandae, recusandae fugit!</p>
+                    </div>
+                    <div class="py-3 text-center text-lg-start">
+                        <h5 class="py-2">Contact Us</h5>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                    <i class="fa-solid fa-location-dot fs-3 color"></i>
+                                    <p class="ps-3">West 14th maria reichenbach, <br>
+                                        zürich 8022, switzerland
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                    <i class="fa-solid fa-phone fs-3 color"></i>
+                                    <p class="ps-3">+33 0123 456 789 <br>
+                                        demo@demo.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="text-center text-lg-start">
+                        <h3>Service</h3>
+                        <ul class="list-unstyled pt-3">
+                            <li class="py-2">About vegist</li>
+                            <li class="py-2">Faq's</li>
+                            <li class="py-2">Contact us</li>
+                            <li class="py-2">News</li>
+                            <li class="py-2">Store location</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="text-center text-lg-start">
+                        <h3>Privacy & terms</h3>
+                        <ul class="list-unstyled pt-3">
+                            <li class="py-2">Payment policy</li>
+                            <li class="py-2">Privacy policy</li>
+                            <li class="py-2">Return policy</li>
+                            <li class="py-2">Shipping policy</li>
+                            <li class="py-2">Terms & conditions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="text-center text-lg-start">
+                        <h3>My account</h3>
+                        <ul class="list-unstyled pt-3">
+                            <li class="py-2">My account</li>
+                            <li class="py-2">My cart</li>
+                            <li class="py-2">Order history</li>
+                            <li class="py-2">My wishlist</li>
+                            <li class="py-2">My address</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="text-center text-lg-start">
+        <hr class="text-white">
+        <div class="container">
+            <div class="gallery_body rounded-4 p-3">
+                <p class="m-0 py-3 text-white">@2023 Theme Powered by TopnTech</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section end -->
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- script  -->
+    <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
